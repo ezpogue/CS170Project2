@@ -1,0 +1,1776 @@
+      0         1         2         3   ...        37        38        39        40
+0    2.0  0.648442  1.908914  0.290222  ... -0.914036 -0.241138  2.045184 -1.484289
+1    2.0 -0.858757  0.205078  1.797724  ...  1.011657 -0.008428  0.106341  0.043726
+2    2.0  2.486254  1.291354  0.735843  ...  0.310146 -0.160973  0.025042 -2.044793
+3    2.0  0.709949  0.120344 -1.447464  ...  1.164923 -1.698699  0.232235 -0.541115
+4    2.0  0.658340 -0.632024  1.527419  ... -2.625032  1.137309 -0.213124  0.021595
+..   ...       ...       ...       ...  ...       ...       ...       ...       ...
+995  2.0 -1.252105 -0.818662 -0.337158  ...  0.494758  2.598153 -0.474303  0.163694
+996  2.0 -0.192859 -0.234754  0.354057  ... -0.293653 -1.083735 -1.128060  0.061897
+997  2.0  0.191334 -0.022475  0.167545  ... -0.155759  0.858874 -0.009613  1.306863
+998  2.0 -0.350784 -0.716704 -0.516360  ... -1.528508  2.589144  1.184968 -0.599916
+999  2.0 -0.013469 -0.307378 -0.055453  ...  0.887619  0.120814 -1.410908 -0.287086
+
+[1000 rows x 41 columns]
+Testing features for level 1
+	Testing feature 1
+		Accuracy: 0.659
+	Testing feature 2
+		Accuracy: 0.699
+	Testing feature 3
+		Accuracy: 0.656
+	Testing feature 4
+		Accuracy: 0.658
+	Testing feature 5
+		Accuracy: 0.694
+	Testing feature 6
+		Accuracy: 0.684
+	Testing feature 7
+		Accuracy: 0.683
+	Testing feature 8
+		Accuracy: 0.685
+	Testing feature 9
+		Accuracy: 0.666
+	Testing feature 10
+		Accuracy: 0.664
+	Testing feature 11
+		Accuracy: 0.67
+	Testing feature 12
+		Accuracy: 0.674
+	Testing feature 13
+		Accuracy: 0.717
+	Testing feature 14
+		Accuracy: 0.665
+	Testing feature 15
+		Accuracy: 0.695
+	Testing feature 16
+		Accuracy: 0.692
+	Testing feature 17
+		Accuracy: 0.678
+	Testing feature 18
+		Accuracy: 0.668
+	Testing feature 19
+		Accuracy: 0.685
+	Testing feature 20
+		Accuracy: 0.66
+	Testing feature 21
+		Accuracy: 0.677
+	Testing feature 22
+		Accuracy: 0.684
+	Testing feature 23
+		Accuracy: 0.656
+	Testing feature 24
+		Accuracy: 0.656
+	Testing feature 25
+		Accuracy: 0.661
+	Testing feature 26
+		Accuracy: 0.665
+	Testing feature 27
+		Accuracy: 0.664
+	Testing feature 28
+		Accuracy: 0.85
+	Testing feature 29
+		Accuracy: 0.649
+	Testing feature 30
+		Accuracy: 0.687
+	Testing feature 31
+		Accuracy: 0.679
+	Testing feature 32
+		Accuracy: 0.665
+	Testing feature 33
+		Accuracy: 0.694
+	Testing feature 34
+		Accuracy: 0.65
+	Testing feature 35
+		Accuracy: 0.659
+	Testing feature 36
+		Accuracy: 0.669
+	Testing feature 37
+		Accuracy: 0.694
+	Testing feature 38
+		Accuracy: 0.661
+	Testing feature 39
+		Accuracy: 0.687
+	Testing feature 40
+		Accuracy: 0.665
+Best feature for this level is 28, adding it to the feature set
+[28]
+Testing features for level 2
+	Testing feature 1
+		Accuracy: 0.857
+	Testing feature 2
+		Accuracy: 0.848
+	Testing feature 3
+		Accuracy: 0.842
+	Testing feature 4
+		Accuracy: 0.843
+	Testing feature 5
+		Accuracy: 0.839
+	Testing feature 6
+		Accuracy: 0.845
+	Testing feature 7
+		Accuracy: 0.85
+	Testing feature 8
+		Accuracy: 0.847
+	Testing feature 9
+		Accuracy: 0.846
+	Testing feature 10
+		Accuracy: 0.864
+	Testing feature 11
+		Accuracy: 0.844
+	Testing feature 12
+		Accuracy: 0.843
+	Testing feature 13
+		Accuracy: 0.968
+	Testing feature 14
+		Accuracy: 0.85
+	Testing feature 15
+		Accuracy: 0.83
+	Testing feature 16
+		Accuracy: 0.848
+	Testing feature 17
+		Accuracy: 0.837
+	Testing feature 18
+		Accuracy: 0.851
+	Testing feature 19
+		Accuracy: 0.853
+	Testing feature 20
+		Accuracy: 0.827
+	Testing feature 21
+		Accuracy: 0.848
+	Testing feature 22
+		Accuracy: 0.854
+	Testing feature 23
+		Accuracy: 0.854
+	Testing feature 24
+		Accuracy: 0.858
+	Testing feature 25
+		Accuracy: 0.847
+	Testing feature 26
+		Accuracy: 0.847
+	Testing feature 27
+		Accuracy: 0.855
+	Testing feature 29
+		Accuracy: 0.845
+	Testing feature 30
+		Accuracy: 0.855
+	Testing feature 31
+		Accuracy: 0.828
+	Testing feature 32
+		Accuracy: 0.853
+	Testing feature 33
+		Accuracy: 0.835
+	Testing feature 34
+		Accuracy: 0.853
+	Testing feature 35
+		Accuracy: 0.856
+	Testing feature 36
+		Accuracy: 0.842
+	Testing feature 37
+		Accuracy: 0.84
+	Testing feature 38
+		Accuracy: 0.851
+	Testing feature 39
+		Accuracy: 0.835
+	Testing feature 40
+		Accuracy: 0.851
+Best feature for this level is 13, adding it to the feature set
+[28, 13]
+Testing features for level 3
+	Testing feature 1
+		Accuracy: 0.937
+	Testing feature 2
+		Accuracy: 0.931
+	Testing feature 3
+		Accuracy: 0.928
+	Testing feature 4
+		Accuracy: 0.922
+	Testing feature 5
+		Accuracy: 0.936
+	Testing feature 6
+		Accuracy: 0.938
+	Testing feature 7
+		Accuracy: 0.941
+	Testing feature 8
+		Accuracy: 0.947
+	Testing feature 9
+		Accuracy: 0.936
+	Testing feature 10
+		Accuracy: 0.924
+	Testing feature 11
+		Accuracy: 0.922
+	Testing feature 12
+		Accuracy: 0.927
+	Testing feature 14
+		Accuracy: 0.931
+	Testing feature 15
+		Accuracy: 0.933
+	Testing feature 16
+		Accuracy: 0.936
+	Testing feature 17
+		Accuracy: 0.924
+	Testing feature 18
+		Accuracy: 0.955
+	Testing feature 19
+		Accuracy: 0.938
+	Testing feature 20
+		Accuracy: 0.937
+	Testing feature 21
+		Accuracy: 0.934
+	Testing feature 22
+		Accuracy: 0.934
+	Testing feature 23
+		Accuracy: 0.92
+	Testing feature 24
+		Accuracy: 0.94
+	Testing feature 25
+		Accuracy: 0.927
+	Testing feature 26
+		Accuracy: 0.927
+	Testing feature 27
+		Accuracy: 0.939
+	Testing feature 29
+		Accuracy: 0.94
+	Testing feature 30
+		Accuracy: 0.94
+	Testing feature 31
+		Accuracy: 0.939
+	Testing feature 32
+		Accuracy: 0.916
+	Testing feature 33
+		Accuracy: 0.933
+	Testing feature 34
+		Accuracy: 0.931
+	Testing feature 35
+		Accuracy: 0.941
+	Testing feature 36
+		Accuracy: 0.939
+	Testing feature 37
+		Accuracy: 0.933
+	Testing feature 38
+		Accuracy: 0.932
+	Testing feature 39
+		Accuracy: 0.947
+	Testing feature 40
+		Accuracy: 0.938
+Best feature for this level is 18, adding it to the feature set
+[28, 13, 18]
+Testing features for level 4
+	Testing feature 1
+		Accuracy: 0.906
+	Testing feature 2
+		Accuracy: 0.899
+	Testing feature 3
+		Accuracy: 0.897
+	Testing feature 4
+		Accuracy: 0.904
+	Testing feature 5
+		Accuracy: 0.906
+	Testing feature 6
+		Accuracy: 0.906
+	Testing feature 7
+		Accuracy: 0.925
+	Testing feature 8
+		Accuracy: 0.908
+	Testing feature 9
+		Accuracy: 0.922
+	Testing feature 10
+		Accuracy: 0.906
+	Testing feature 11
+		Accuracy: 0.909
+	Testing feature 12
+		Accuracy: 0.903
+	Testing feature 14
+		Accuracy: 0.909
+	Testing feature 15
+		Accuracy: 0.908
+	Testing feature 16
+		Accuracy: 0.909
+	Testing feature 17
+		Accuracy: 0.903
+	Testing feature 19
+		Accuracy: 0.903
+	Testing feature 20
+		Accuracy: 0.917
+	Testing feature 21
+		Accuracy: 0.903
+	Testing feature 22
+		Accuracy: 0.9
+	Testing feature 23
+		Accuracy: 0.898
+	Testing feature 24
+		Accuracy: 0.909
+	Testing feature 25
+		Accuracy: 0.918
+	Testing feature 26
+		Accuracy: 0.895
+	Testing feature 27
+		Accuracy: 0.902
+	Testing feature 29
+		Accuracy: 0.916
+	Testing feature 30
+		Accuracy: 0.905
+	Testing feature 31
+		Accuracy: 0.9
+	Testing feature 32
+		Accuracy: 0.918
+	Testing feature 33
+		Accuracy: 0.922
+	Testing feature 34
+		Accuracy: 0.904
+	Testing feature 35
+		Accuracy: 0.926
+	Testing feature 36
+		Accuracy: 0.904
+	Testing feature 37
+		Accuracy: 0.9
+	Testing feature 38
+		Accuracy: 0.906
+	Testing feature 39
+		Accuracy: 0.926
+	Testing feature 40
+		Accuracy: 0.911
+Best feature for this level is 35, adding it to the feature set
+[28, 13, 18, 35]
+Testing features for level 5
+	Testing feature 1
+		Accuracy: 0.875
+	Testing feature 2
+		Accuracy: 0.867
+	Testing feature 3
+		Accuracy: 0.862
+	Testing feature 4
+		Accuracy: 0.854
+	Testing feature 5
+		Accuracy: 0.879
+	Testing feature 6
+		Accuracy: 0.879
+	Testing feature 7
+		Accuracy: 0.886
+	Testing feature 8
+		Accuracy: 0.872
+	Testing feature 9
+		Accuracy: 0.898
+	Testing feature 10
+		Accuracy: 0.876
+	Testing feature 11
+		Accuracy: 0.87
+	Testing feature 12
+		Accuracy: 0.881
+	Testing feature 14
+		Accuracy: 0.876
+	Testing feature 15
+		Accuracy: 0.865
+	Testing feature 16
+		Accuracy: 0.867
+	Testing feature 17
+		Accuracy: 0.863
+	Testing feature 19
+		Accuracy: 0.867
+	Testing feature 20
+		Accuracy: 0.878
+	Testing feature 21
+		Accuracy: 0.89
+	Testing feature 22
+		Accuracy: 0.876
+	Testing feature 23
+		Accuracy: 0.876
+	Testing feature 24
+		Accuracy: 0.885
+	Testing feature 25
+		Accuracy: 0.874
+	Testing feature 26
+		Accuracy: 0.858
+	Testing feature 27
+		Accuracy: 0.886
+	Testing feature 29
+		Accuracy: 0.887
+	Testing feature 30
+		Accuracy: 0.878
+	Testing feature 31
+		Accuracy: 0.871
+	Testing feature 32
+		Accuracy: 0.888
+	Testing feature 33
+		Accuracy: 0.886
+	Testing feature 34
+		Accuracy: 0.874
+	Testing feature 36
+		Accuracy: 0.849
+	Testing feature 37
+		Accuracy: 0.877
+	Testing feature 38
+		Accuracy: 0.878
+	Testing feature 39
+		Accuracy: 0.882
+	Testing feature 40
+		Accuracy: 0.881
+Best feature for this level is 9, adding it to the feature set
+[28, 13, 18, 35, 9]
+Testing features for level 6
+	Testing feature 1
+		Accuracy: 0.854
+	Testing feature 2
+		Accuracy: 0.844
+	Testing feature 3
+		Accuracy: 0.849
+	Testing feature 4
+		Accuracy: 0.834
+	Testing feature 5
+		Accuracy: 0.854
+	Testing feature 6
+		Accuracy: 0.854
+	Testing feature 7
+		Accuracy: 0.854
+	Testing feature 8
+		Accuracy: 0.862
+	Testing feature 10
+		Accuracy: 0.855
+	Testing feature 11
+		Accuracy: 0.852
+	Testing feature 12
+		Accuracy: 0.853
+	Testing feature 14
+		Accuracy: 0.839
+	Testing feature 15
+		Accuracy: 0.845
+	Testing feature 16
+		Accuracy: 0.848
+	Testing feature 17
+		Accuracy: 0.859
+	Testing feature 19
+		Accuracy: 0.86
+	Testing feature 20
+		Accuracy: 0.847
+	Testing feature 21
+		Accuracy: 0.863
+	Testing feature 22
+		Accuracy: 0.867
+	Testing feature 23
+		Accuracy: 0.854
+	Testing feature 24
+		Accuracy: 0.868
+	Testing feature 25
+		Accuracy: 0.862
+	Testing feature 26
+		Accuracy: 0.858
+	Testing feature 27
+		Accuracy: 0.868
+	Testing feature 29
+		Accuracy: 0.863
+	Testing feature 30
+		Accuracy: 0.854
+	Testing feature 31
+		Accuracy: 0.843
+	Testing feature 32
+		Accuracy: 0.853
+	Testing feature 33
+		Accuracy: 0.852
+	Testing feature 34
+		Accuracy: 0.851
+	Testing feature 36
+		Accuracy: 0.865
+	Testing feature 37
+		Accuracy: 0.852
+	Testing feature 38
+		Accuracy: 0.859
+	Testing feature 39
+		Accuracy: 0.859
+	Testing feature 40
+		Accuracy: 0.847
+Best feature for this level is 24, adding it to the feature set
+[28, 13, 18, 35, 9, 24]
+Testing features for level 7
+	Testing feature 1
+		Accuracy: 0.837
+	Testing feature 2
+		Accuracy: 0.816
+	Testing feature 3
+		Accuracy: 0.824
+	Testing feature 4
+		Accuracy: 0.833
+	Testing feature 5
+		Accuracy: 0.828
+	Testing feature 6
+		Accuracy: 0.837
+	Testing feature 7
+		Accuracy: 0.822
+	Testing feature 8
+		Accuracy: 0.831
+	Testing feature 10
+		Accuracy: 0.822
+	Testing feature 11
+		Accuracy: 0.835
+	Testing feature 12
+		Accuracy: 0.824
+	Testing feature 14
+		Accuracy: 0.83
+	Testing feature 15
+		Accuracy: 0.851
+	Testing feature 16
+		Accuracy: 0.823
+	Testing feature 17
+		Accuracy: 0.844
+	Testing feature 19
+		Accuracy: 0.828
+	Testing feature 20
+		Accuracy: 0.845
+	Testing feature 21
+		Accuracy: 0.852
+	Testing feature 22
+		Accuracy: 0.858
+	Testing feature 23
+		Accuracy: 0.817
+	Testing feature 25
+		Accuracy: 0.824
+	Testing feature 26
+		Accuracy: 0.839
+	Testing feature 27
+		Accuracy: 0.829
+	Testing feature 29
+		Accuracy: 0.844
+	Testing feature 30
+		Accuracy: 0.842
+	Testing feature 31
+		Accuracy: 0.839
+	Testing feature 32
+		Accuracy: 0.823
+	Testing feature 33
+		Accuracy: 0.841
+	Testing feature 34
+		Accuracy: 0.827
+	Testing feature 36
+		Accuracy: 0.842
+	Testing feature 37
+		Accuracy: 0.84
+	Testing feature 38
+		Accuracy: 0.837
+	Testing feature 39
+		Accuracy: 0.84
+	Testing feature 40
+		Accuracy: 0.829
+Best feature for this level is 22, adding it to the feature set
+[28, 13, 18, 35, 9, 24, 22]
+Testing features for level 8
+	Testing feature 1
+		Accuracy: 0.806
+	Testing feature 2
+		Accuracy: 0.79
+	Testing feature 3
+		Accuracy: 0.807
+	Testing feature 4
+		Accuracy: 0.807
+	Testing feature 5
+		Accuracy: 0.814
+	Testing feature 6
+		Accuracy: 0.817
+	Testing feature 7
+		Accuracy: 0.806
+	Testing feature 8
+		Accuracy: 0.826
+	Testing feature 10
+		Accuracy: 0.8
+	Testing feature 11
+		Accuracy: 0.816
+	Testing feature 12
+		Accuracy: 0.807
+	Testing feature 14
+		Accuracy: 0.807
+	Testing feature 15
+		Accuracy: 0.826
+	Testing feature 16
+		Accuracy: 0.815
+	Testing feature 17
+		Accuracy: 0.813
+	Testing feature 19
+		Accuracy: 0.818
+	Testing feature 20
+		Accuracy: 0.808
+	Testing feature 21
+		Accuracy: 0.817
+	Testing feature 23
+		Accuracy: 0.819
+	Testing feature 25
+		Accuracy: 0.821
+	Testing feature 26
+		Accuracy: 0.803
+	Testing feature 27
+		Accuracy: 0.826
+	Testing feature 29
+		Accuracy: 0.832
+	Testing feature 30
+		Accuracy: 0.834
+	Testing feature 31
+		Accuracy: 0.805
+	Testing feature 32
+		Accuracy: 0.809
+	Testing feature 33
+		Accuracy: 0.827
+	Testing feature 34
+		Accuracy: 0.818
+	Testing feature 36
+		Accuracy: 0.802
+	Testing feature 37
+		Accuracy: 0.822
+	Testing feature 38
+		Accuracy: 0.82
+	Testing feature 39
+		Accuracy: 0.814
+	Testing feature 40
+		Accuracy: 0.815
+Best feature for this level is 30, adding it to the feature set
+[28, 13, 18, 35, 9, 24, 22, 30]
+Testing features for level 9
+	Testing feature 1
+		Accuracy: 0.805
+	Testing feature 2
+		Accuracy: 0.802
+	Testing feature 3
+		Accuracy: 0.794
+	Testing feature 4
+		Accuracy: 0.782
+	Testing feature 5
+		Accuracy: 0.807
+	Testing feature 6
+		Accuracy: 0.786
+	Testing feature 7
+		Accuracy: 0.778
+	Testing feature 8
+		Accuracy: 0.811
+	Testing feature 10
+		Accuracy: 0.791
+	Testing feature 11
+		Accuracy: 0.791
+	Testing feature 12
+		Accuracy: 0.806
+	Testing feature 14
+		Accuracy: 0.795
+	Testing feature 15
+		Accuracy: 0.803
+	Testing feature 16
+		Accuracy: 0.794
+	Testing feature 17
+		Accuracy: 0.797
+	Testing feature 19
+		Accuracy: 0.778
+	Testing feature 20
+		Accuracy: 0.782
+	Testing feature 21
+		Accuracy: 0.809
+	Testing feature 23
+		Accuracy: 0.801
+	Testing feature 25
+		Accuracy: 0.798
+	Testing feature 26
+		Accuracy: 0.791
+	Testing feature 27
+		Accuracy: 0.801
+	Testing feature 29
+		Accuracy: 0.797
+	Testing feature 31
+		Accuracy: 0.794
+	Testing feature 32
+		Accuracy: 0.802
+	Testing feature 33
+		Accuracy: 0.803
+	Testing feature 34
+		Accuracy: 0.81
+	Testing feature 36
+		Accuracy: 0.81
+	Testing feature 37
+		Accuracy: 0.807
+	Testing feature 38
+		Accuracy: 0.817
+	Testing feature 39
+		Accuracy: 0.804
+	Testing feature 40
+		Accuracy: 0.806
+Best feature for this level is 38, adding it to the feature set
+[28, 13, 18, 35, 9, 24, 22, 30, 38]
+Testing features for level 10
+	Testing feature 1
+		Accuracy: 0.781
+	Testing feature 2
+		Accuracy: 0.773
+	Testing feature 3
+		Accuracy: 0.793
+	Testing feature 4
+		Accuracy: 0.799
+	Testing feature 5
+		Accuracy: 0.792
+	Testing feature 6
+		Accuracy: 0.783
+	Testing feature 7
+		Accuracy: 0.784
+	Testing feature 8
+		Accuracy: 0.785
+	Testing feature 10
+		Accuracy: 0.795
+	Testing feature 11
+		Accuracy: 0.783
+	Testing feature 12
+		Accuracy: 0.776
+	Testing feature 14
+		Accuracy: 0.775
+	Testing feature 15
+		Accuracy: 0.784
+	Testing feature 16
+		Accuracy: 0.785
+	Testing feature 17
+		Accuracy: 0.782
+	Testing feature 19
+		Accuracy: 0.774
+	Testing feature 20
+		Accuracy: 0.791
+	Testing feature 21
+		Accuracy: 0.784
+	Testing feature 23
+		Accuracy: 0.791
+	Testing feature 25
+		Accuracy: 0.777
+	Testing feature 26
+		Accuracy: 0.77
+	Testing feature 27
+		Accuracy: 0.781
+	Testing feature 29
+		Accuracy: 0.784
+	Testing feature 31
+		Accuracy: 0.799
+	Testing feature 32
+		Accuracy: 0.795
+	Testing feature 33
+		Accuracy: 0.793
+	Testing feature 34
+		Accuracy: 0.795
+	Testing feature 36
+		Accuracy: 0.812
+	Testing feature 37
+		Accuracy: 0.792
+	Testing feature 39
+		Accuracy: 0.773
+	Testing feature 40
+		Accuracy: 0.784
+Best feature for this level is 36, adding it to the feature set
+[28, 13, 18, 35, 9, 24, 22, 30, 38, 36]
+Testing features for level 11
+	Testing feature 1
+		Accuracy: 0.791
+	Testing feature 2
+		Accuracy: 0.787
+	Testing feature 3
+		Accuracy: 0.789
+	Testing feature 4
+		Accuracy: 0.781
+	Testing feature 5
+		Accuracy: 0.783
+	Testing feature 6
+		Accuracy: 0.784
+	Testing feature 7
+		Accuracy: 0.786
+	Testing feature 8
+		Accuracy: 0.768
+	Testing feature 10
+		Accuracy: 0.785
+	Testing feature 11
+		Accuracy: 0.778
+	Testing feature 12
+		Accuracy: 0.778
+	Testing feature 14
+		Accuracy: 0.769
+	Testing feature 15
+		Accuracy: 0.782
+	Testing feature 16
+		Accuracy: 0.767
+	Testing feature 17
+		Accuracy: 0.773
+	Testing feature 19
+		Accuracy: 0.787
+	Testing feature 20
+		Accuracy: 0.77
+	Testing feature 21
+		Accuracy: 0.772
+	Testing feature 23
+		Accuracy: 0.78
+	Testing feature 25
+		Accuracy: 0.787
+	Testing feature 26
+		Accuracy: 0.769
+	Testing feature 27
+		Accuracy: 0.778
+	Testing feature 29
+		Accuracy: 0.784
+	Testing feature 31
+		Accuracy: 0.791
+	Testing feature 32
+		Accuracy: 0.787
+	Testing feature 33
+		Accuracy: 0.78
+	Testing feature 34
+		Accuracy: 0.793
+	Testing feature 37
+		Accuracy: 0.791
+	Testing feature 39
+		Accuracy: 0.781
+	Testing feature 40
+		Accuracy: 0.774
+Best feature for this level is 34, adding it to the feature set
+[28, 13, 18, 35, 9, 24, 22, 30, 38, 36, 34]
+Testing features for level 12
+	Testing feature 1
+		Accuracy: 0.766
+	Testing feature 2
+		Accuracy: 0.761
+	Testing feature 3
+		Accuracy: 0.777
+	Testing feature 4
+		Accuracy: 0.775
+	Testing feature 5
+		Accuracy: 0.771
+	Testing feature 6
+		Accuracy: 0.774
+	Testing feature 7
+		Accuracy: 0.767
+	Testing feature 8
+		Accuracy: 0.775
+	Testing feature 10
+		Accuracy: 0.752
+	Testing feature 11
+		Accuracy: 0.764
+	Testing feature 12
+		Accuracy: 0.762
+	Testing feature 14
+		Accuracy: 0.769
+	Testing feature 15
+		Accuracy: 0.772
+	Testing feature 16
+		Accuracy: 0.778
+	Testing feature 17
+		Accuracy: 0.77
+	Testing feature 19
+		Accuracy: 0.776
+	Testing feature 20
+		Accuracy: 0.779
+	Testing feature 21
+		Accuracy: 0.769
+	Testing feature 23
+		Accuracy: 0.769
+	Testing feature 25
+		Accuracy: 0.777
+	Testing feature 26
+		Accuracy: 0.759
+	Testing feature 27
+		Accuracy: 0.782
+	Testing feature 29
+		Accuracy: 0.769
+	Testing feature 31
+		Accuracy: 0.772
+	Testing feature 32
+		Accuracy: 0.78
+	Testing feature 33
+		Accuracy: 0.752
+	Testing feature 37
+		Accuracy: 0.805
+	Testing feature 39
+		Accuracy: 0.77
+	Testing feature 40
+		Accuracy: 0.768
+Best feature for this level is 37, adding it to the feature set
+[28, 13, 18, 35, 9, 24, 22, 30, 38, 36, 34, 37]
+Testing features for level 13
+	Testing feature 1
+		Accuracy: 0.765
+	Testing feature 2
+		Accuracy: 0.761
+	Testing feature 3
+		Accuracy: 0.765
+	Testing feature 4
+		Accuracy: 0.774
+	Testing feature 5
+		Accuracy: 0.759
+	Testing feature 6
+		Accuracy: 0.758
+	Testing feature 7
+		Accuracy: 0.757
+	Testing feature 8
+		Accuracy: 0.764
+	Testing feature 10
+		Accuracy: 0.764
+	Testing feature 11
+		Accuracy: 0.768
+	Testing feature 12
+		Accuracy: 0.78
+	Testing feature 14
+		Accuracy: 0.769
+	Testing feature 15
+		Accuracy: 0.769
+	Testing feature 16
+		Accuracy: 0.771
+	Testing feature 17
+		Accuracy: 0.773
+	Testing feature 19
+		Accuracy: 0.761
+	Testing feature 20
+		Accuracy: 0.772
+	Testing feature 21
+		Accuracy: 0.784
+	Testing feature 23
+		Accuracy: 0.768
+	Testing feature 25
+		Accuracy: 0.77
+	Testing feature 26
+		Accuracy: 0.76
+	Testing feature 27
+		Accuracy: 0.779
+	Testing feature 29
+		Accuracy: 0.775
+	Testing feature 31
+		Accuracy: 0.79
+	Testing feature 32
+		Accuracy: 0.789
+	Testing feature 33
+		Accuracy: 0.767
+	Testing feature 39
+		Accuracy: 0.757
+	Testing feature 40
+		Accuracy: 0.766
+Best feature for this level is 31, adding it to the feature set
+[28, 13, 18, 35, 9, 24, 22, 30, 38, 36, 34, 37, 31]
+Testing features for level 14
+	Testing feature 1
+		Accuracy: 0.775
+	Testing feature 2
+		Accuracy: 0.756
+	Testing feature 3
+		Accuracy: 0.754
+	Testing feature 4
+		Accuracy: 0.769
+	Testing feature 5
+		Accuracy: 0.764
+	Testing feature 6
+		Accuracy: 0.762
+	Testing feature 7
+		Accuracy: 0.761
+	Testing feature 8
+		Accuracy: 0.767
+	Testing feature 10
+		Accuracy: 0.763
+	Testing feature 11
+		Accuracy: 0.761
+	Testing feature 12
+		Accuracy: 0.769
+	Testing feature 14
+		Accuracy: 0.761
+	Testing feature 15
+		Accuracy: 0.745
+	Testing feature 16
+		Accuracy: 0.781
+	Testing feature 17
+		Accuracy: 0.757
+	Testing feature 19
+		Accuracy: 0.758
+	Testing feature 20
+		Accuracy: 0.753
+	Testing feature 21
+		Accuracy: 0.771
+	Testing feature 23
+		Accuracy: 0.771
+	Testing feature 25
+		Accuracy: 0.754
+	Testing feature 26
+		Accuracy: 0.757
+	Testing feature 27
+		Accuracy: 0.763
+	Testing feature 29
+		Accuracy: 0.75
+	Testing feature 32
+		Accuracy: 0.778
+	Testing feature 33
+		Accuracy: 0.759
+	Testing feature 39
+		Accuracy: 0.746
+	Testing feature 40
+		Accuracy: 0.787
+Best feature for this level is 40, adding it to the feature set
+[28, 13, 18, 35, 9, 24, 22, 30, 38, 36, 34, 37, 31, 40]
+Testing features for level 15
+	Testing feature 1
+		Accuracy: 0.77
+	Testing feature 2
+		Accuracy: 0.768
+	Testing feature 3
+		Accuracy: 0.76
+	Testing feature 4
+		Accuracy: 0.743
+	Testing feature 5
+		Accuracy: 0.767
+	Testing feature 6
+		Accuracy: 0.761
+	Testing feature 7
+		Accuracy: 0.758
+	Testing feature 8
+		Accuracy: 0.753
+	Testing feature 10
+		Accuracy: 0.751
+	Testing feature 11
+		Accuracy: 0.787
+	Testing feature 12
+		Accuracy: 0.767
+	Testing feature 14
+		Accuracy: 0.761
+	Testing feature 15
+		Accuracy: 0.768
+	Testing feature 16
+		Accuracy: 0.769
+	Testing feature 17
+		Accuracy: 0.741
+	Testing feature 19
+		Accuracy: 0.75
+	Testing feature 20
+		Accuracy: 0.759
+	Testing feature 21
+		Accuracy: 0.766
+	Testing feature 23
+		Accuracy: 0.758
+	Testing feature 25
+		Accuracy: 0.751
+	Testing feature 26
+		Accuracy: 0.765
+	Testing feature 27
+		Accuracy: 0.76
+	Testing feature 29
+		Accuracy: 0.762
+	Testing feature 32
+		Accuracy: 0.779
+	Testing feature 33
+		Accuracy: 0.748
+	Testing feature 39
+		Accuracy: 0.76
+Best feature for this level is 11, adding it to the feature set
+[28, 13, 18, 35, 9, 24, 22, 30, 38, 36, 34, 37, 31, 40, 11]
+Testing features for level 16
+	Testing feature 1
+		Accuracy: 0.754
+	Testing feature 2
+		Accuracy: 0.75
+	Testing feature 3
+		Accuracy: 0.756
+	Testing feature 4
+		Accuracy: 0.753
+	Testing feature 5
+		Accuracy: 0.756
+	Testing feature 6
+		Accuracy: 0.749
+	Testing feature 7
+		Accuracy: 0.754
+	Testing feature 8
+		Accuracy: 0.761
+	Testing feature 10
+		Accuracy: 0.753
+	Testing feature 12
+		Accuracy: 0.761
+	Testing feature 14
+		Accuracy: 0.764
+	Testing feature 15
+		Accuracy: 0.755
+	Testing feature 16
+		Accuracy: 0.762
+	Testing feature 17
+		Accuracy: 0.748
+	Testing feature 19
+		Accuracy: 0.74
+	Testing feature 20
+		Accuracy: 0.761
+	Testing feature 21
+		Accuracy: 0.765
+	Testing feature 23
+		Accuracy: 0.76
+	Testing feature 25
+		Accuracy: 0.763
+	Testing feature 26
+		Accuracy: 0.746
+	Testing feature 27
+		Accuracy: 0.733
+	Testing feature 29
+		Accuracy: 0.757
+	Testing feature 32
+		Accuracy: 0.757
+	Testing feature 33
+		Accuracy: 0.753
+	Testing feature 39
+		Accuracy: 0.738
+Best feature for this level is 21, adding it to the feature set
+[28, 13, 18, 35, 9, 24, 22, 30, 38, 36, 34, 37, 31, 40, 11, 21]
+Testing features for level 17
+	Testing feature 1
+		Accuracy: 0.754
+	Testing feature 2
+		Accuracy: 0.723
+	Testing feature 3
+		Accuracy: 0.749
+	Testing feature 4
+		Accuracy: 0.749
+	Testing feature 5
+		Accuracy: 0.737
+	Testing feature 6
+		Accuracy: 0.737
+	Testing feature 7
+		Accuracy: 0.728
+	Testing feature 8
+		Accuracy: 0.736
+	Testing feature 10
+		Accuracy: 0.722
+	Testing feature 12
+		Accuracy: 0.745
+	Testing feature 14
+		Accuracy: 0.747
+	Testing feature 15
+		Accuracy: 0.756
+	Testing feature 16
+		Accuracy: 0.733
+	Testing feature 17
+		Accuracy: 0.733
+	Testing feature 19
+		Accuracy: 0.743
+	Testing feature 20
+		Accuracy: 0.75
+	Testing feature 23
+		Accuracy: 0.752
+	Testing feature 25
+		Accuracy: 0.748
+	Testing feature 26
+		Accuracy: 0.743
+	Testing feature 27
+		Accuracy: 0.739
+	Testing feature 29
+		Accuracy: 0.731
+	Testing feature 32
+		Accuracy: 0.758
+	Testing feature 33
+		Accuracy: 0.741
+	Testing feature 39
+		Accuracy: 0.745
+Best feature for this level is 32, adding it to the feature set
+[28, 13, 18, 35, 9, 24, 22, 30, 38, 36, 34, 37, 31, 40, 11, 21, 32]
+Testing features for level 18
+	Testing feature 1
+		Accuracy: 0.741
+	Testing feature 2
+		Accuracy: 0.727
+	Testing feature 3
+		Accuracy: 0.742
+	Testing feature 4
+		Accuracy: 0.75
+	Testing feature 5
+		Accuracy: 0.73
+	Testing feature 6
+		Accuracy: 0.729
+	Testing feature 7
+		Accuracy: 0.739
+	Testing feature 8
+		Accuracy: 0.749
+	Testing feature 10
+		Accuracy: 0.726
+	Testing feature 12
+		Accuracy: 0.743
+	Testing feature 14
+		Accuracy: 0.74
+	Testing feature 15
+		Accuracy: 0.749
+	Testing feature 16
+		Accuracy: 0.735
+	Testing feature 17
+		Accuracy: 0.732
+	Testing feature 19
+		Accuracy: 0.747
+	Testing feature 20
+		Accuracy: 0.754
+	Testing feature 23
+		Accuracy: 0.739
+	Testing feature 25
+		Accuracy: 0.763
+	Testing feature 26
+		Accuracy: 0.748
+	Testing feature 27
+		Accuracy: 0.747
+	Testing feature 29
+		Accuracy: 0.736
+	Testing feature 33
+		Accuracy: 0.745
+	Testing feature 39
+		Accuracy: 0.762
+Best feature for this level is 25, adding it to the feature set
+[28, 13, 18, 35, 9, 24, 22, 30, 38, 36, 34, 37, 31, 40, 11, 21, 32, 25]
+Testing features for level 19
+	Testing feature 1
+		Accuracy: 0.74
+	Testing feature 2
+		Accuracy: 0.712
+	Testing feature 3
+		Accuracy: 0.742
+	Testing feature 4
+		Accuracy: 0.733
+	Testing feature 5
+		Accuracy: 0.727
+	Testing feature 6
+		Accuracy: 0.725
+	Testing feature 7
+		Accuracy: 0.738
+	Testing feature 8
+		Accuracy: 0.749
+	Testing feature 10
+		Accuracy: 0.738
+	Testing feature 12
+		Accuracy: 0.738
+	Testing feature 14
+		Accuracy: 0.741
+	Testing feature 15
+		Accuracy: 0.746
+	Testing feature 16
+		Accuracy: 0.749
+	Testing feature 17
+		Accuracy: 0.729
+	Testing feature 19
+		Accuracy: 0.746
+	Testing feature 20
+		Accuracy: 0.745
+	Testing feature 23
+		Accuracy: 0.744
+	Testing feature 26
+		Accuracy: 0.746
+	Testing feature 27
+		Accuracy: 0.753
+	Testing feature 29
+		Accuracy: 0.732
+	Testing feature 33
+		Accuracy: 0.75
+	Testing feature 39
+		Accuracy: 0.75
+Best feature for this level is 27, adding it to the feature set
+[28, 13, 18, 35, 9, 24, 22, 30, 38, 36, 34, 37, 31, 40, 11, 21, 32, 25, 27]
+Testing features for level 20
+	Testing feature 1
+		Accuracy: 0.741
+	Testing feature 2
+		Accuracy: 0.727
+	Testing feature 3
+		Accuracy: 0.737
+	Testing feature 4
+		Accuracy: 0.733
+	Testing feature 5
+		Accuracy: 0.726
+	Testing feature 6
+		Accuracy: 0.726
+	Testing feature 7
+		Accuracy: 0.729
+	Testing feature 8
+		Accuracy: 0.73
+	Testing feature 10
+		Accuracy: 0.741
+	Testing feature 12
+		Accuracy: 0.724
+	Testing feature 14
+		Accuracy: 0.743
+	Testing feature 15
+		Accuracy: 0.753
+	Testing feature 16
+		Accuracy: 0.743
+	Testing feature 17
+		Accuracy: 0.722
+	Testing feature 19
+		Accuracy: 0.734
+	Testing feature 20
+		Accuracy: 0.741
+	Testing feature 23
+		Accuracy: 0.741
+	Testing feature 26
+		Accuracy: 0.725
+	Testing feature 29
+		Accuracy: 0.738
+	Testing feature 33
+		Accuracy: 0.752
+	Testing feature 39
+		Accuracy: 0.732
+Best feature for this level is 15, adding it to the feature set
+[28, 13, 18, 35, 9, 24, 22, 30, 38, 36, 34, 37, 31, 40, 11, 21, 32, 25, 27, 15]
+Testing features for level 21
+	Testing feature 1
+		Accuracy: 0.731
+	Testing feature 2
+		Accuracy: 0.722
+	Testing feature 3
+		Accuracy: 0.732
+	Testing feature 4
+		Accuracy: 0.74
+	Testing feature 5
+		Accuracy: 0.709
+	Testing feature 6
+		Accuracy: 0.73
+	Testing feature 7
+		Accuracy: 0.736
+	Testing feature 8
+		Accuracy: 0.738
+	Testing feature 10
+		Accuracy: 0.737
+	Testing feature 12
+		Accuracy: 0.721
+	Testing feature 14
+		Accuracy: 0.728
+	Testing feature 16
+		Accuracy: 0.739
+	Testing feature 17
+		Accuracy: 0.735
+	Testing feature 19
+		Accuracy: 0.735
+	Testing feature 20
+		Accuracy: 0.735
+	Testing feature 23
+		Accuracy: 0.738
+	Testing feature 26
+		Accuracy: 0.735
+	Testing feature 29
+		Accuracy: 0.737
+	Testing feature 33
+		Accuracy: 0.733
+	Testing feature 39
+		Accuracy: 0.743
+Best feature for this level is 39, adding it to the feature set
+[28, 13, 18, 35, 9, 24, 22, 30, 38, 36, 34, 37, 31, 40, 11, 21, 32, 25, 27, 15, 39]
+Testing features for level 22
+	Testing feature 1
+		Accuracy: 0.726
+	Testing feature 2
+		Accuracy: 0.709
+	Testing feature 3
+		Accuracy: 0.729
+	Testing feature 4
+		Accuracy: 0.737
+	Testing feature 5
+		Accuracy: 0.704
+	Testing feature 6
+		Accuracy: 0.723
+	Testing feature 7
+		Accuracy: 0.717
+	Testing feature 8
+		Accuracy: 0.727
+	Testing feature 10
+		Accuracy: 0.721
+	Testing feature 12
+		Accuracy: 0.726
+	Testing feature 14
+		Accuracy: 0.734
+	Testing feature 16
+		Accuracy: 0.723
+	Testing feature 17
+		Accuracy: 0.73
+	Testing feature 19
+		Accuracy: 0.711
+	Testing feature 20
+		Accuracy: 0.72
+	Testing feature 23
+		Accuracy: 0.726
+	Testing feature 26
+		Accuracy: 0.707
+	Testing feature 29
+		Accuracy: 0.713
+	Testing feature 33
+		Accuracy: 0.718
+Best feature for this level is 4, adding it to the feature set
+[28, 13, 18, 35, 9, 24, 22, 30, 38, 36, 34, 37, 31, 40, 11, 21, 32, 25, 27, 15, 39, 4]
+Testing features for level 23
+	Testing feature 1
+		Accuracy: 0.732
+	Testing feature 2
+		Accuracy: 0.7
+	Testing feature 3
+		Accuracy: 0.706
+	Testing feature 5
+		Accuracy: 0.708
+	Testing feature 6
+		Accuracy: 0.734
+	Testing feature 7
+		Accuracy: 0.712
+	Testing feature 8
+		Accuracy: 0.718
+	Testing feature 10
+		Accuracy: 0.708
+	Testing feature 12
+		Accuracy: 0.724
+	Testing feature 14
+		Accuracy: 0.714
+	Testing feature 16
+		Accuracy: 0.735
+	Testing feature 17
+		Accuracy: 0.723
+	Testing feature 19
+		Accuracy: 0.715
+	Testing feature 20
+		Accuracy: 0.714
+	Testing feature 23
+		Accuracy: 0.724
+	Testing feature 26
+		Accuracy: 0.709
+	Testing feature 29
+		Accuracy: 0.72
+	Testing feature 33
+		Accuracy: 0.728
+Best feature for this level is 16, adding it to the feature set
+[28, 13, 18, 35, 9, 24, 22, 30, 38, 36, 34, 37, 31, 40, 11, 21, 32, 25, 27, 15, 39, 4, 16]
+Testing features for level 24
+	Testing feature 1
+		Accuracy: 0.73
+	Testing feature 2
+		Accuracy: 0.708
+	Testing feature 3
+		Accuracy: 0.721
+	Testing feature 5
+		Accuracy: 0.707
+	Testing feature 6
+		Accuracy: 0.737
+	Testing feature 7
+		Accuracy: 0.704
+	Testing feature 8
+		Accuracy: 0.729
+	Testing feature 10
+		Accuracy: 0.701
+	Testing feature 12
+		Accuracy: 0.716
+	Testing feature 14
+		Accuracy: 0.726
+	Testing feature 17
+		Accuracy: 0.711
+	Testing feature 19
+		Accuracy: 0.699
+	Testing feature 20
+		Accuracy: 0.715
+	Testing feature 23
+		Accuracy: 0.709
+	Testing feature 26
+		Accuracy: 0.699
+	Testing feature 29
+		Accuracy: 0.726
+	Testing feature 33
+		Accuracy: 0.714
+Best feature for this level is 6, adding it to the feature set
+[28, 13, 18, 35, 9, 24, 22, 30, 38, 36, 34, 37, 31, 40, 11, 21, 32, 25, 27, 15, 39, 4, 16, 6]
+Testing features for level 25
+	Testing feature 1
+		Accuracy: 0.727
+	Testing feature 2
+		Accuracy: 0.695
+	Testing feature 3
+		Accuracy: 0.726
+	Testing feature 5
+		Accuracy: 0.706
+	Testing feature 7
+		Accuracy: 0.716
+	Testing feature 8
+		Accuracy: 0.716
+	Testing feature 10
+		Accuracy: 0.705
+	Testing feature 12
+		Accuracy: 0.717
+	Testing feature 14
+		Accuracy: 0.718
+	Testing feature 17
+		Accuracy: 0.707
+	Testing feature 19
+		Accuracy: 0.725
+	Testing feature 20
+		Accuracy: 0.717
+	Testing feature 23
+		Accuracy: 0.702
+	Testing feature 26
+		Accuracy: 0.715
+	Testing feature 29
+		Accuracy: 0.72
+	Testing feature 33
+		Accuracy: 0.724
+Best feature for this level is 1, adding it to the feature set
+[28, 13, 18, 35, 9, 24, 22, 30, 38, 36, 34, 37, 31, 40, 11, 21, 32, 25, 27, 15, 39, 4, 16, 6, 1]
+Testing features for level 26
+	Testing feature 2
+		Accuracy: 0.705
+	Testing feature 3
+		Accuracy: 0.711
+	Testing feature 5
+		Accuracy: 0.71
+	Testing feature 7
+		Accuracy: 0.7
+	Testing feature 8
+		Accuracy: 0.71
+	Testing feature 10
+		Accuracy: 0.707
+	Testing feature 12
+		Accuracy: 0.708
+	Testing feature 14
+		Accuracy: 0.706
+	Testing feature 17
+		Accuracy: 0.706
+	Testing feature 19
+		Accuracy: 0.716
+	Testing feature 20
+		Accuracy: 0.703
+	Testing feature 23
+		Accuracy: 0.71
+	Testing feature 26
+		Accuracy: 0.709
+	Testing feature 29
+		Accuracy: 0.714
+	Testing feature 33
+		Accuracy: 0.71
+Best feature for this level is 19, adding it to the feature set
+[28, 13, 18, 35, 9, 24, 22, 30, 38, 36, 34, 37, 31, 40, 11, 21, 32, 25, 27, 15, 39, 4, 16, 6, 1, 19]
+Testing features for level 27
+	Testing feature 2
+		Accuracy: 0.687
+	Testing feature 3
+		Accuracy: 0.71
+	Testing feature 5
+		Accuracy: 0.706
+	Testing feature 7
+		Accuracy: 0.701
+	Testing feature 8
+		Accuracy: 0.709
+	Testing feature 10
+		Accuracy: 0.7
+	Testing feature 12
+		Accuracy: 0.71
+	Testing feature 14
+		Accuracy: 0.702
+	Testing feature 17
+		Accuracy: 0.703
+	Testing feature 20
+		Accuracy: 0.706
+	Testing feature 23
+		Accuracy: 0.712
+	Testing feature 26
+		Accuracy: 0.7
+	Testing feature 29
+		Accuracy: 0.704
+	Testing feature 33
+		Accuracy: 0.709
+Best feature for this level is 23, adding it to the feature set
+[28, 13, 18, 35, 9, 24, 22, 30, 38, 36, 34, 37, 31, 40, 11, 21, 32, 25, 27, 15, 39, 4, 16, 6, 1, 19, 23]
+Testing features for level 28
+	Testing feature 2
+		Accuracy: 0.683
+	Testing feature 3
+		Accuracy: 0.712
+	Testing feature 5
+		Accuracy: 0.71
+	Testing feature 7
+		Accuracy: 0.715
+	Testing feature 8
+		Accuracy: 0.705
+	Testing feature 10
+		Accuracy: 0.703
+	Testing feature 12
+		Accuracy: 0.698
+	Testing feature 14
+		Accuracy: 0.701
+	Testing feature 17
+		Accuracy: 0.695
+	Testing feature 20
+		Accuracy: 0.697
+	Testing feature 26
+		Accuracy: 0.713
+	Testing feature 29
+		Accuracy: 0.705
+	Testing feature 33
+		Accuracy: 0.716
+Best feature for this level is 33, adding it to the feature set
+[28, 13, 18, 35, 9, 24, 22, 30, 38, 36, 34, 37, 31, 40, 11, 21, 32, 25, 27, 15, 39, 4, 16, 6, 1, 19, 23, 33]
+Testing features for level 29
+	Testing feature 2
+		Accuracy: 0.696
+	Testing feature 3
+		Accuracy: 0.697
+	Testing feature 5
+		Accuracy: 0.709
+	Testing feature 7
+		Accuracy: 0.713
+	Testing feature 8
+		Accuracy: 0.716
+	Testing feature 10
+		Accuracy: 0.709
+	Testing feature 12
+		Accuracy: 0.705
+	Testing feature 14
+		Accuracy: 0.712
+	Testing feature 17
+		Accuracy: 0.705
+	Testing feature 20
+		Accuracy: 0.709
+	Testing feature 26
+		Accuracy: 0.716
+	Testing feature 29
+		Accuracy: 0.713
+Best feature for this level is 8, adding it to the feature set
+[28, 13, 18, 35, 9, 24, 22, 30, 38, 36, 34, 37, 31, 40, 11, 21, 32, 25, 27, 15, 39, 4, 16, 6, 1, 19, 23, 33, 8]
+Testing features for level 30
+	Testing feature 2
+		Accuracy: 0.702
+	Testing feature 3
+		Accuracy: 0.704
+	Testing feature 5
+		Accuracy: 0.696
+	Testing feature 7
+		Accuracy: 0.707
+	Testing feature 10
+		Accuracy: 0.702
+	Testing feature 12
+		Accuracy: 0.716
+	Testing feature 14
+		Accuracy: 0.704
+	Testing feature 17
+		Accuracy: 0.708
+	Testing feature 20
+		Accuracy: 0.702
+	Testing feature 26
+		Accuracy: 0.707
+	Testing feature 29
+		Accuracy: 0.721
+Best feature for this level is 29, adding it to the feature set
+[28, 13, 18, 35, 9, 24, 22, 30, 38, 36, 34, 37, 31, 40, 11, 21, 32, 25, 27, 15, 39, 4, 16, 6, 1, 19, 23, 33, 8, 29]
+Testing features for level 31
+	Testing feature 2
+		Accuracy: 0.702
+	Testing feature 3
+		Accuracy: 0.716
+	Testing feature 5
+		Accuracy: 0.715
+	Testing feature 7
+		Accuracy: 0.71
+	Testing feature 10
+		Accuracy: 0.709
+	Testing feature 12
+		Accuracy: 0.708
+	Testing feature 14
+		Accuracy: 0.717
+	Testing feature 17
+		Accuracy: 0.718
+	Testing feature 20
+		Accuracy: 0.711
+	Testing feature 26
+		Accuracy: 0.707
+Best feature for this level is 17, adding it to the feature set
+[28, 13, 18, 35, 9, 24, 22, 30, 38, 36, 34, 37, 31, 40, 11, 21, 32, 25, 27, 15, 39, 4, 16, 6, 1, 19, 23, 33, 8, 29, 17]
+Testing features for level 32
+	Testing feature 2
+		Accuracy: 0.695
+	Testing feature 3
+		Accuracy: 0.703
+	Testing feature 5
+		Accuracy: 0.707
+	Testing feature 7
+		Accuracy: 0.703
+	Testing feature 10
+		Accuracy: 0.698
+	Testing feature 12
+		Accuracy: 0.711
+	Testing feature 14
+		Accuracy: 0.703
+	Testing feature 20
+		Accuracy: 0.699
+	Testing feature 26
+		Accuracy: 0.705
+Best feature for this level is 12, adding it to the feature set
+[28, 13, 18, 35, 9, 24, 22, 30, 38, 36, 34, 37, 31, 40, 11, 21, 32, 25, 27, 15, 39, 4, 16, 6, 1, 19, 23, 33, 8, 29, 17, 12]
+Testing features for level 33
+	Testing feature 2
+		Accuracy: 0.705
+	Testing feature 3
+		Accuracy: 0.709
+	Testing feature 5
+		Accuracy: 0.713
+	Testing feature 7
+		Accuracy: 0.712
+	Testing feature 10
+		Accuracy: 0.698
+	Testing feature 14
+		Accuracy: 0.708
+	Testing feature 20
+		Accuracy: 0.696
+	Testing feature 26
+		Accuracy: 0.714
+Best feature for this level is 26, adding it to the feature set
+[28, 13, 18, 35, 9, 24, 22, 30, 38, 36, 34, 37, 31, 40, 11, 21, 32, 25, 27, 15, 39, 4, 16, 6, 1, 19, 23, 33, 8, 29, 17, 12, 26]
+Testing features for level 34
+	Testing feature 2
+		Accuracy: 0.701
+	Testing feature 3
+		Accuracy: 0.714
+	Testing feature 5
+		Accuracy: 0.717
+	Testing feature 7
+		Accuracy: 0.705
+	Testing feature 10
+		Accuracy: 0.695
+	Testing feature 14
+		Accuracy: 0.713
+	Testing feature 20
+		Accuracy: 0.69
+Best feature for this level is 5, adding it to the feature set
+[28, 13, 18, 35, 9, 24, 22, 30, 38, 36, 34, 37, 31, 40, 11, 21, 32, 25, 27, 15, 39, 4, 16, 6, 1, 19, 23, 33, 8, 29, 17, 12, 26, 5]
+Testing features for level 35
+	Testing feature 2
+		Accuracy: 0.713
+	Testing feature 3
+		Accuracy: 0.713
+	Testing feature 7
+		Accuracy: 0.702
+	Testing feature 10
+		Accuracy: 0.694
+	Testing feature 14
+		Accuracy: 0.713
+	Testing feature 20
+		Accuracy: 0.698
+Best feature for this level is 2, adding it to the feature set
+[28, 13, 18, 35, 9, 24, 22, 30, 38, 36, 34, 37, 31, 40, 11, 21, 32, 25, 27, 15, 39, 4, 16, 6, 1, 19, 23, 33, 8, 29, 17, 12, 26, 5, 2]
+Testing features for level 36
+	Testing feature 3
+		Accuracy: 0.705
+	Testing feature 7
+		Accuracy: 0.695
+	Testing feature 10
+		Accuracy: 0.686
+	Testing feature 14
+		Accuracy: 0.702
+	Testing feature 20
+		Accuracy: 0.706
+Best feature for this level is 20, adding it to the feature set
+[28, 13, 18, 35, 9, 24, 22, 30, 38, 36, 34, 37, 31, 40, 11, 21, 32, 25, 27, 15, 39, 4, 16, 6, 1, 19, 23, 33, 8, 29, 17, 12, 26, 5, 2, 20]
+Testing features for level 37
+	Testing feature 3
+		Accuracy: 0.686
+	Testing feature 7
+		Accuracy: 0.692
+	Testing feature 10
+		Accuracy: 0.682
+	Testing feature 14
+		Accuracy: 0.691
+Best feature for this level is 7, adding it to the feature set
+[28, 13, 18, 35, 9, 24, 22, 30, 38, 36, 34, 37, 31, 40, 11, 21, 32, 25, 27, 15, 39, 4, 16, 6, 1, 19, 23, 33, 8, 29, 17, 12, 26, 5, 2, 20, 7]
+Testing features for level 38
+	Testing feature 3
+		Accuracy: 0.689
+	Testing feature 10
+		Accuracy: 0.683
+	Testing feature 14
+		Accuracy: 0.685
+Best feature for this level is 3, adding it to the feature set
+[28, 13, 18, 35, 9, 24, 22, 30, 38, 36, 34, 37, 31, 40, 11, 21, 32, 25, 27, 15, 39, 4, 16, 6, 1, 19, 23, 33, 8, 29, 17, 12, 26, 5, 2, 20, 7, 3]
+Testing features for level 39
+	Testing feature 10
+		Accuracy: 0.669
+	Testing feature 14
+		Accuracy: 0.673
+Best feature for this level is 14, adding it to the feature set
+[28, 13, 18, 35, 9, 24, 22, 30, 38, 36, 34, 37, 31, 40, 11, 21, 32, 25, 27, 15, 39, 4, 16, 6, 1, 19, 23, 33, 8, 29, 17, 12, 26, 5, 2, 20, 7, 3, 14]
+Testing features for level 40
+	Testing feature 10
+		Accuracy: 0.665
+Best feature for this level is 10, adding it to the feature set
+[28, 13, 18, 35, 9, 24, 22, 30, 38, 36, 34, 37, 31, 40, 11, 21, 32, 25, 27, 15, 39, 4, 16, 6, 1, 19, 23, 33, 8, 29, 17, 12, 26, 5, 2, 20, 7, 3, 14, 10]
+Best feature set is: [28, 13] with an accuracy of 0.968
+2511.200163125992

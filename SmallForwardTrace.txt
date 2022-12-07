@@ -1,0 +1,76 @@
+       0         1         2         3         4         5         6
+0    2.0  1.735151 -0.991649 -0.950292  2.011181  0.545589 -0.243853
+1    2.0  2.379729 -1.154355 -0.994325  1.930901  0.385870  0.637696
+2    2.0 -1.688724  0.233200 -1.258301 -0.190145 -0.935129  1.379818
+3    2.0  0.817807 -0.036145  1.440671  1.218795 -0.284002  0.572678
+4    2.0  0.526163 -0.651150  0.247811 -1.534236  0.467203  0.116129
+..   ...       ...       ...       ...       ...       ...       ...
+495  1.0  0.480737  0.558447  2.812929 -0.775942  0.052567  0.614091
+496  2.0  0.495830 -1.626300 -0.274784 -0.877228  1.105214  1.371876
+497  2.0 -0.001997 -1.444264  1.522134 -0.194979 -0.061446  0.131738
+498  2.0  1.415095 -1.377081  2.339075  0.392294 -1.450904  0.329877
+499  1.0 -0.411093  0.347361 -0.239718  0.663978 -0.169447 -0.038048
+
+[500 rows x 7 columns]
+Testing features for level 1
+	Testing feature 1
+		Accuracy: 0.73
+	Testing feature 2
+		Accuracy: 0.842
+	Testing feature 3
+		Accuracy: 0.688
+	Testing feature 4
+		Accuracy: 0.704
+	Testing feature 5
+		Accuracy: 0.688
+	Testing feature 6
+		Accuracy: 0.708
+Best feature for this level is 2, adding it to the feature set
+[2]
+Testing features for level 2
+	Testing feature 1
+		Accuracy: 0.976
+	Testing feature 3
+		Accuracy: 0.866
+	Testing feature 4
+		Accuracy: 0.838
+	Testing feature 5
+		Accuracy: 0.808
+	Testing feature 6
+		Accuracy: 0.824
+Best feature for this level is 1, adding it to the feature set
+[2, 1]
+Testing features for level 3
+	Testing feature 3
+		Accuracy: 0.926
+	Testing feature 4
+		Accuracy: 0.93
+	Testing feature 5
+		Accuracy: 0.938
+	Testing feature 6
+		Accuracy: 0.928
+Best feature for this level is 5, adding it to the feature set
+[2, 1, 5]
+Testing features for level 4
+	Testing feature 3
+		Accuracy: 0.902
+	Testing feature 4
+		Accuracy: 0.896
+	Testing feature 6
+		Accuracy: 0.908
+Best feature for this level is 6, adding it to the feature set
+[2, 1, 5, 6]
+Testing features for level 5
+	Testing feature 3
+		Accuracy: 0.834
+	Testing feature 4
+		Accuracy: 0.884
+Best feature for this level is 4, adding it to the feature set
+[2, 1, 5, 6, 4]
+Testing features for level 6
+	Testing feature 3
+		Accuracy: 0.842
+Best feature for this level is 3, adding it to the feature set
+[2, 1, 5, 6, 4, 3]
+Best feature set is: [2, 1] with an accuracy of 0.976
+3.9189114570617676
