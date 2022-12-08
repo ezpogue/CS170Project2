@@ -1773,4 +1773,4 @@ Testing features for level 40
 Worst feature for this level is 28, removing it from the feature set
 []
 Best feature set is: [13, 28] with an accuracy of 0.968
-4488.252788305283
+4488.252

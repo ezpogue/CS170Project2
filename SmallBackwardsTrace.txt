@@ -73,4 +73,4 @@ Testing features for level 6
 Worst feature for this level is 2, removing it from the feature set
 []
 Best feature set is: [1, 2] with an accuracy of 0.976
-4.596315383911133
+4.596

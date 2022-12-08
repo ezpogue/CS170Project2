@@ -100,4 +100,4 @@ start = time.time()#Start timer
 x, y = backwardElimination(data)
 feats = ', '.join([str(i) for i  in y])
 print('Best feature set is: [' + feats + '] with an accuracy of ' + str(x))
-#print(time.time()-start)#Print runtime
+print(round(time.time()-start, 3))#Print runtime
