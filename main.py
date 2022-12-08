@@ -1,7 +1,7 @@
-import pandas as p
-import math
-import copy
-import time
+import pandas as p #For reading in data
+import math #sqrt()
+import copy #For shallow copying feature sets
+import time #For finding runtime
 
 def nearestNeighbor(data, features, element): #Returns the class of the nearest neighbor
     nearestDist = float('inf')
@@ -20,7 +20,7 @@ def nearestNeighbor(data, features, element): #Returns the class of the nearest 
     #print('Nearest element to ' + str(element) + ' is ' + str(nearestElement) + ' with a class of ' + str(nearestClass) + ' and a distance of ' + str(nearestDist))
     return nearestClass
 
-def forwardsOneOutCV(data, features, newfeature):
+def forwardsOneOutCV(data, features, newfeature):#Makes combined feature set and runs nearestNeighbor on all elements using those features
     testfeatures = copy.copy(features)
     testfeatures.append(newfeature)
     correct = 0
@@ -30,7 +30,7 @@ def forwardsOneOutCV(data, features, newfeature):
     return correct/len(data)
 
 
-def forwardSelection(data):
+def forwardSelection(data):#Wrapper for forward selection
     chosen = []
     notchosen = []
     notchosen.extend(range(1, len(data[0])))
@@ -56,7 +56,7 @@ def forwardSelection(data):
             bestfeatureset = copy.copy(chosen)
     return finalacc, bestfeatureset
 
-def backwardsOneOutCV(data, features, removefeature):
+def backwardsOneOutCV(data, features, removefeature):#Makes split feature set and runs nearestNeighbor on all elements using those features
     testfeatures = copy.copy(features)
     testfeatures.remove(removefeature)
     correct = 0
@@ -66,7 +66,7 @@ def backwardsOneOutCV(data, features, removefeature):
     return correct/len(data)
 
 
-def backwardElimination(data):
+def backwardElimination(data):#Wrapper for backwards elimination
     chosen = []
     notchosen = []
     chosen.extend(range(1, len(data[0])))
@@ -92,12 +92,12 @@ def backwardElimination(data):
             bestfeatureset = copy.copy(chosen)
     return finalacc, bestfeatureset
 
-filename = 'PersonalDataLarge108.txt'
-data = p.read_csv(filename, sep="  ", engine='python', header=None)
+filename = 'SueDataSmall96.txt'
+data = p.read_csv(filename, sep="  ", engine='python', header=None)#Read in file
 print(data)
-data = data.values.tolist()
-start = time.time()
+data = data.values.tolist()#Convert dataframe to list for better runtime
+start = time.time()#Start timer
 x, y = backwardElimination(data)
 feats = ', '.join([str(i) for i  in y])
 print('Best feature set is: [' + feats + '] with an accuracy of ' + str(x))
-print(time.time()-start)
+#print(time.time()-start)#Print runtime
